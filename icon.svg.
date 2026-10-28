@@ -1,0 +1,8 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100" fill="#123b2a"/>
+  <circle cx="256" cy="220" r="145" fill="#ffffff"/>
+  <path d="M145 175h222v35H145zm0 65h222v35H145zm0 65h150v35H145z" fill="#17643f"/>
+  <path d="M95 395l45-90 45 90z" fill="#f2c14e"/>
+  <text x="256" y="465" font-size="42" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" fill="#ffffff">PVN</text>
+</svg>
