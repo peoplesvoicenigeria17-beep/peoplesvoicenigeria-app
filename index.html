@@ -12,7 +12,7 @@
     * { box-sizing: border-box; }
     body {
 <script>
-if ("serviceWorker" in navigator) {
+if  
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("./sw.js");
   });
@@ -70,6 +70,17 @@ if ("serviceWorker" in navigator) {
   </style>
 </head>
 <body>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("./sw.js")
+      .catch(function (error) {
+        console.error("Service worker registration failed:", error);
+      });
+  });
+}
+</script>
+  
   <header>
     <h1>peoplesvoicenigeria</h1>
     <p>Your voice. Your community. Your news.</p>
