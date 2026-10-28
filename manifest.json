@@ -1,0 +1,20 @@
+
+{
+  "id": "./",
+  "name": "peoplesvoicenigeria",
+  "short_name": "peoplesvoice",
+  "description": "News, politics, community reports and entertainment from Delta State and Nigeria.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f4",
+  "theme_color": "#123b2a",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
